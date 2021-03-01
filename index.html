@@ -4,6 +4,7 @@
         <title>Grim</title>
         <link rel="icon" href="./assets/Icon.png"/>
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header class="main-header">
@@ -84,17 +85,23 @@
                 <h1 class="section-header">Contact Me</h1>
                 <div class="section-content">
                     <h3>Send me a message.</h3>
-                    <form id="contact-form">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                    <form form action="mailto:grqm.us@gmail.com" method="get" enctype="text/plain" id="contact-form">
                         <label for="subject">Subject</label>
                         <input type="text" id="subject" name="subject">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" style="height:170px"></textarea>
-                        <a href="mailto:grqm.us@gmail.com"><button>Send</button></a>
+                        <label for="body">Message</label>
+                        <textarea id="body" name="body"></textarea>
+                        <input type="submit" name="submit" value="Send" />
                     </form>
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="social-buttons">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-reddit"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <a class="link" href="mailto:grqm.us@gmail.com">grqm.us@gmail.com</a>
+        </footer>
     </body>
 </html>
