@@ -26,10 +26,73 @@
             <h1 class="point-down" onClick="document.getElementById('introduction').scrollIntoView();">☟</h1>
         </header>
         <main>
-            <div id="introduction">
-                <h1 class="section-header">Introduction.</h1>
-                <div clas="section-content">
-
+            <div class="section" id="introduction">
+                <h1 class="section-header">Introduction</h1>
+                <div class="section-content">
+                    <h2>Welcome to my website. I'm a 15 year old, aspiring software developer.</h2>
+                    <h3>About me</h3>
+                    <p>
+                        I'm a self taught developer who's interesting in learning every computer language I can.
+                        I have worked on many projects, including a Discord Bot, a Chrome Extension and much more.
+                        Once I get in the zone I can code all day, I really enjoy coding and developing.
+                        Some other things I enjoy are making YouTube videos and watching movies.
+                    </p>
+                    <hr>
+                    <h3>How it started</h3>
+                    <p>
+                        I first developed an interest in coding about 6 years ago (2015), using a program called Scratch.
+                        Recently I started coding again using a language called Luau, which is derived from Lua. <br>
+                        Originally I wanted to be a game developer, but when I started learning HTML and JavaScript I found out I liked that much better.
+                    </p>
+                </div>
+            </div>
+            <div class="section" id="experience">
+                <h1 class="section-header">Experience</h1>
+                <div class="section-content">
+                    <h3>Skills</h3>
+                    <p>
+                        Right now I'm still learning how to code HTML and JavaScript, however I have some experience with both languages.
+                        I have some experience in graphic design as well.
+                    </p>
+                    <hr>
+                    <div id="skills">
+                        <h4>HTML</h4>
+                        <div class="skillbar">
+                            <div id="skillbar-html">75%</div>
+                        </div>
+                        <h4>CSS</h4>
+                        <div class="skillbar">
+                            <div id="skillbar-css">65%</div>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="skillbar">
+                            <div id="skillbar-js">55%</div>
+                        </div>
+                        <h4>Luau</h4>
+                        <div class="skillbar">
+                            <div id="skillbar-luau">70%</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Projects</h3>
+                    <p>
+                        I'm always thinking of new ideas and working on projects. When I have some more complete I'll post them here!
+                    </p>
+                </div>
+            </div>
+            <div class="section" id="contact">
+                <h1 class="section-header">Contact Me</h1>
+                <div class="section-content">
+                    <h3>Send me a message.</h3>
+                    <form id="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" style="height:170px"></textarea>
+                        <a href="mailto:grqm.us@gmail.com"><button>Send</button></a>
+                    </form>
                 </div>
             </div>
         </main>
